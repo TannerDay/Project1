@@ -16,12 +16,23 @@ h2 {
         text-align: center;
  }
       
-div {
-    color: white;
+ div.gallery {
+    margin: 5px;
+    border: 1px solid #faf7f7;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #fffbfb;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
     text-align: center;
-}
-
-a { 
-    color: white;
-    text-align: center;
-}
+  }
