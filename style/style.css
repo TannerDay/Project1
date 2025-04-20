@@ -103,5 +103,19 @@ h1, h2, h3 {
  button:hover {
   background-color: gray;
  }
+
+ nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* spacing between link */
+    background-color: black;
+    padding: 1rem 0;
+ }
+ 
+ nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+ }
   
  
