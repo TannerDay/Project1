@@ -6,42 +6,37 @@
     <title>Book Now</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
+<header>
+  <nav> 
+      <a href="./Index.html">Home</a>
+      <a href="./Menu.html">Menu</a>
+      <a href="./BookNow.html">Book Now</a>
+  </nav>
+</header>
+<body>
+  <div class="container">
+    <h1>Book a Table</h1>
+    <form action="ThankYou.html" method="get">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
 
-<body class="black">
-    <header class="white">
-        <nav>
-            <a href="./Index.html">Home</a>
-            <a href="./Menu.html">Menu</a>
-            <a href="./BookNow.html">Book Now</a>
-            <a href="Thank You.html">Thank You</a>
-        </nav>
-    </header>
-       <main>
-          <h1> Select A Time Of Your Convenience And Book Now </h1>
-          <div>
-            <select name="" id="">
-              <option> 4:00pm </option>
-              <option> 4:30pm</option>
-              <option> 5:00pm</option>
-              <option> 5:30pm</option>
-              <option> 6:00pm</option>
-              <option> 6:30pm</option>
-          </div>
-          <h2> Name And Phone Number</h2>
-          <form action="ThankYou.html" method="get">
-            <form>
-              <label for="fname">First name:</label><br>
-              <input type="text" id="fname" name="fname" value="Firstname"><br>
-              <label for="lname">Last name:</label><br>
-              <input type="text" id="lname" name="lname" value="Lastname"><br><br>
-              <label for="phone">Phone Number:</label>
-              <input type="tel" id="phone" name="phone" placeholder="+1 (123) 456-7890">
-              <input type="submit" value="Submit">
-            </form>
-          </main>
-           
-        
-    <!--You FORM-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="time">Time:</label>
+      <select id="time" name="time" required>
+        <option value=""></option>Select a Time</option>
+        <option value="6pm">6:00 PM</option>
+        <option value="7pm">7:00 PM</option>
+        <option value="8pm">8:00 PM</option>
+        <option value="9pm">9:00 PM</option>
+      </select>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
+
+   
