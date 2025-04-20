@@ -5,14 +5,14 @@
  As a user, I want to be able to easily navigate the website so that I can quickly find the information I need. Whether i want to see the menu, or book a reservation, the website met my expectations.
 
  User Story 2
- As an online restaraunt user
- I want to see what meals the restaraunt serves and i want to see the prices
- So that i can decide beforehand if this restaraunt is gonna be a good choice for me 
+ As an online restaraunt user,
+ I want to see what meals the restaraunt serves and i want to see the prices,
+ so that i can decide beforehand if this restaraunt is gonna be a good choice for me 
 
  User Story 3
- As a customer
- I want to secure a table online ahead of time
- So that i can quickly be seated and served my food once i arrive at the restaraunt
+ As a customer,
+ I want to secure a table online ahead of time,
+ so that i can quickly be seated and served my food once i arrive at the restaraunt
 ## Technologies Used
    HTML
    CSS
